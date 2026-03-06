@@ -1,0 +1,126 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+ENV/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing/coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Data (large files)
+data/open_spiel/train.txt
+data/open_spiel/test copia.txt
+data/open_spiel/test_numeric.txt
+
+# Claude Flow / SPARC / Roo (tool configs, not project code)
+.claude/
+.mcp.json
+claude-flow
+claude-flow.bat
+claude-flow.ps1
+claude-flow.config.json
+claude-sparc.sh
+CLAUDE.md
+.swarm/
+.hive-mind/
+.roo/
+.roomodes
+memory/
+coordination/
+hive-mind-prompt-*.txt
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+
+# Old monolithic scripts (superseded by bridge_llm_bench/ package)
+bridge_1.py
+bridge_2.py
+bridge_llm_bench.py
+bridge_llm_bench2.py
+bridge_llm_bench3.py
+bridge_llm_bench_modular.py
+bridge_llm_bench_test.py
+
+# Old utility/report scripts
+compare_benchmarks.py
+compare_llms.py
+confronta_modelli.py
+confronta_modelli_no_gemini.py
+csv_pulito.py
+fix_gemini.py
+genera_csv_da_confronto.py
+genera_csv_dettagliato_v2.py
+genera_report_completo.py
+genera_report_dettagliato.py
+qwen.py
+report_completo_4_giocatori.py
+report_csv_completo.py
+report_csv.py
+report_gioco_completo.py
+report_semplice.py
+report_sequenza_completa.py
+test_mani_complete.py
+tournament_llms.py
+validate_game.py
+verifica_api.py
+visualizza_report.py
+run_all_tests.sh
+
+# Old data/results/logs
+confronto_*.csv
+report_*.csv
+LOG_RECORDS_CSV
+final_test.jsonl
+test_5_hands.jsonl
+test_debug.jsonl
+test_final_fixes.jsonl
+test_fixed_debug.jsonl
+test_text_debug.jsonl
+
+# Old docs (superseded or not relevant)
+FINAL_STATUS.md
+FIXES_SUMMARY.md
+LANCIO_RAPIDO.md
+QUICK_START.md
+README_GAME.md
+RISOLUZIONE_API.md
+
+# Old comparison results and experiment outputs
+test_2_mani/
+results/confronto_10_mani/
+results/bench_25_*.csv
+results/benchmark_summary.csv
+results/detailed_responses.csv
+results/dettaglio_records.csv
+results/final_reasoning_test.csv
+results/full_4player_auction_summary.csv
+results/reasoning_test.csv
+results/test_records.csv
+
+# Unrelated files
+*.docx
